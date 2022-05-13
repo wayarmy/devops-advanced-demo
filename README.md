@@ -15,6 +15,8 @@
 - After that, you can run the following command
 
 ```shell
+terraform init
+terraform plan
 terraform apply --autoapprove
 ```
 
@@ -26,5 +28,5 @@ terraform apply --autoapprove
 ### Usages:
 
 ```shell
-ansible-playbook
+ansible-playbook -i inventory/dev dev.yml 
 ```
