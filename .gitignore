@@ -1,0 +1,5 @@
+demo-terraform/scripts/userlist
+demo-terraform/terraform.tfvars
+demo-terraform/terraform.tfsate
+test/*
+.idea
